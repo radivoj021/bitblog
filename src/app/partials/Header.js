@@ -7,15 +7,15 @@ const Header = () => {
       <div id="bitBlog">BIT BLOG</div>
       <div id="nav">
         <div>
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
         </div>
         <span> | </span>
         <div>
-          <Link to="/Authors">Authors</Link>
+          <Link to="/authors">Authors</Link>
         </div>
         <span> | </span>
         <div>
-          <Link to="/About">About</Link>
+          <Link to="/about">About</Link>
         </div>
       </div>
     </div>

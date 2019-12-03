@@ -1,4 +1,5 @@
 import React from "react";
+import SingleAuthor from "../pages/SingleAuthor";
 
 export const AuthorInfo = ({ name, username, email, phone }) => {
   return (
@@ -17,3 +18,5 @@ export const AuthorInfo = ({ name, username, email, phone }) => {
     </div>
   );
 };
+
+export default SingleAuthor;

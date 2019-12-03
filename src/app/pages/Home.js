@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <h3 className="center">POSTS</h3>
       <div className="container1">
-        <Link>
+        <Link to="/post/1">
           <h3>Title 1</h3>
         </Link>
         <p>
@@ -17,7 +17,7 @@ const Home = () => {
         </p>
         <hr />
 
-        <Link>
+        <Link to="/post/2">
           <h3>Title 2</h3>
         </Link>
         <p>
@@ -28,7 +28,7 @@ const Home = () => {
         </p>
         <hr />
 
-        <Link>
+        <Link to="/post/3">
           <h3>Title 3</h3>
         </Link>
         <p>

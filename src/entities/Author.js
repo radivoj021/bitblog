@@ -1,12 +1,13 @@
 class Author {
-  constructor(name, username, email, phone, address, company) {
-    this.name = name;
-    this.username = username;
-    this.email = email;
-    this.phone = phone;
-    this.address = address;
-    this.company = company;
+  constructor(apiAuthor) {
+    this.id = apiAuthor.id;
+    this.name = apiAuthor.name;
+    this.username = apiAuthor.username;
+    this.email = apiAuthor.email;
+    this.phone = apiAuthor.phone;
+    this.address = apiAuthor.address;
+    this.company = apiAuthor.company;
   }
 }
 
-export { Author };
+export default Author;

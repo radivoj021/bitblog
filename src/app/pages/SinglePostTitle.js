@@ -5,7 +5,7 @@ const SinglePostPage = props => {
   return (
     <div className="container1">
       <h2 class="center">SINGLE POST TITLE {props.match.params.id}</h2>
-      <Link to="../components/AuthorInfo">
+      <Link to="/SingleAuthor">
         <h3 class="center">Author name</h3>
       </Link>
       <br />

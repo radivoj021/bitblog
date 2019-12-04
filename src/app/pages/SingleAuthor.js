@@ -1,31 +1,19 @@
-import React from "react";
-import { AuthorAddress } from "../components/AuthorAddress";
+import React from 'react';
+import { Link } from "react-router-dom";
 
-const dummyAuthor = {
-  street: "sdlkfj",
-  city: "lsdkfj",
-  zipcode: "kajas",
-  latitude: 44.787197,
-  longitude: 20.457273
-};
-
-const props = {
-  author: dummyAuthor
-};
-
-const Home = () => {
+const SingleAuthor = () => {
   return (
-    <div className="container1">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dicta
-        enim atque ad ipsum aspernatur consectetur neque, aperiam maiores, hic
-        vitae debitis eos incidunt beatae voluptas perferendis libero optio
-        corporis.
-      </p>
-
-      <AuthorAddress author={dummyAuthor} />
+    <div className="container1" id="authors">
+      <div id="allAuthors">
+        <Link to="/authors">
+          <h6> All authors</h6>
+        </Link>
+      </div>
+      <div id="singleAuthor">
+        <h1>Single Author</h1>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default SingleAuthor;

@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div class="header">
-      <div id="bitBlog">BIT BLOG</div>
+      <div id="bitBlog">
+        <Link to="/">BIT BLOG</Link>
+      </div>
       <div id="nav">
         <div>
           <Link to="/">Home</Link>

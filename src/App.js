@@ -1,5 +1,4 @@
 import React from "react";
-
 import Header from "./app/partials/Header";
 import Footer from "./app/partials/Footer";
 import About from "./app/pages/About";
